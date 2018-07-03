@@ -1,0 +1,18 @@
+{
+  "article": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "body": {
+        "appearance": "WYSIWYG"
+      },
+      "dateCreated": {
+        "appearance": ""
+      },
+      "summary": {
+        "appearance": ""
+      }
+    }
+  }
+}

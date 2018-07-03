@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "article",
+  "info": {
+    "name": "article",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "body": {
+      "type": "text",
+      "required": true
+    },
+    "dateCreated": {
+      "type": "date"
+    },
+    "summary": {
+      "type": "text"
+    }
+  }
+}
